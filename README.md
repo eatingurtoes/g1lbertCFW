@@ -6,6 +6,8 @@ The first untethered jailbreak for all of iOS 5.
 THIS IS A DEVELOPER BETA!!! THIS IS A DEVELOPER BETA!!!
 THIS DOES NOT PRESERVE YOUR BASEBAND!!!
 
+g1lbertCFW only works on macOS right now!
+
 Welcome to g1lbertCFW, a tool to create custom CFWs with g1lbertJB beta packed into them. Currently, this only makes iPhone 4s iOS 5.1 .ipsws.
 This script was created for bug reports to be submitted. Please join our discord at https://discord.gg/kWmGBSUhyW!
 
