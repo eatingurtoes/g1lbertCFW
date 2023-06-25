@@ -1,4 +1,6 @@
 # g1lbertCFW
+# This project is presented by the san antonio detective unit (selfisht, PrimePlatypus, LukeZGD, and frog)!
+
 The first untethered jailbreak for all of iOS 5.
 
 THIS IS A DEVELOPER BETA!!! THIS IS A DEVELOPER BETA!!!
@@ -11,4 +13,6 @@ To use, run gilbertpwn and follow the instructions from there!
 
 This script will not restore your iPhone for you. It is made for people who know what they're doing. Don't come to us if you break your phone doing something stupid.
 
-Don't ask for ETAs on all other devices and versions. They will come soon!
+Don't ask for ETAs on other devices and versions. They will come soon.
+
+Thanks to everyone on the team for making this possible, and meeza for helping with testing!
