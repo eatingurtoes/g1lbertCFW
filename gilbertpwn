@@ -27,7 +27,7 @@ clear
 
 echo "We have the correct .ipsw, we will now begin to create the custom one."
 
-bin/powdersn0w iPhone4,1_5.1_9B179_Restore.ipsw iPhone4,1_5.1_9B179_g1lbert.ipsw -memory -bbupdate resources/gilbert.tar resources/iPhone4,1/5.1untether.tar
+bin/powdersn0w iPhone4,1_5.1_9B179_Restore.ipsw iPhone4,1_5.1_9B179_g1lbert.ipsw -memory resources/gilbert.tar resources/iPhone4,1/5.1untether.tar
 
 echo " "
 
