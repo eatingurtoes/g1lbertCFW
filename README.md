@@ -17,4 +17,6 @@ This script will not restore your iPhone for you. It is made for people who know
 
 Don't ask for ETAs on other devices and versions. They will come soon.
 
+Big thanks to dora for making powdersn0w and allowing us to make bundles much faster and more efficiently!
+
 Thanks to everyone on the team for making this possible, and meeza for helping with testing!
