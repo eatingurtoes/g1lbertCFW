@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>Filename</key><string>/home/lukee/Downloads/iPad2,3_5.1.1_9B206_Restore.ipsw</string>
+<key>RootFilesystem</key><string>038-4296-006.dmg</string>
+<key>RootFilesystemKey</key><string>77c66eb8adf94e7a1608af8b1e47249c874db731794aa3e99e4d302ca725033efdc1a633</string>
+<key>RootFilesystemSize</key><integer>917</integer>
+<key>RamdiskOptionsPath</key><string>/usr/local/share/restore/options.k95.plist</string>
+<key>SHA256</key><string>4884e638a43060c0446fd328e18366331f8d2f27a11acf3802c134c2f09aced4</string>
+<key>FilesystemPackage</key><dict/><key>RamdiskPackage</key><dict/>
+<key>Firmware</key><dict>
+<key>iBSS</key><dict><key>File</key><string>Firmware/dfu/iBSS.k95ap.RELEASE.dfu</string><key>IV</key><string>31b13346d89f2384c1d3d833f56bcd6f</string><key>Key</key><string>cb8b4527eeb7fc57c2369fba0b68b80c5c7bb7cb70db64827ab8900f2d4e8be7</string><key>Patch</key><true/>
+<key>Decrypt</key><true/></dict>
+<key>iBEC</key><dict><key>File</key><string>Firmware/dfu/iBEC.k95ap.RELEASE.dfu</string><key>IV</key><string>4b6ef851e894cb5588a23d7d4a963c91</string><key>Key</key><string>fcc220ddc5e4f9775126a3582ebff7f04651856fb45127f09e158ec5b9183a09</string><key>Patch</key><true/>
+<key>Decrypt</key><true/></dict>
+<key>Restore Ramdisk</key><dict><key>File</key><string>038-4352-023.dmg</string><key>IV</key><string>7ea8e10d6956f2f8f6538eb6443cf807</string><key>Key</key><string>68ea60be0f7fde7db99bf4aa07b3c50b515e18af46799b641579c058c672e3cc</string>
+<key>Decrypt</key><true/></dict>
+<key>RestoreDeviceTree</key><dict><key>File</key><string>Firmware/all_flash/all_flash.k95ap.production/DeviceTree.k95ap.img3</string><key>IV</key><string>f49af378172364e51d27e9e1392ad200</string><key>Key</key><string>b9d875fc43cbb934aeba9fccb269ca6e16eb02a9ce741922c3a53a03958caeff</string><key>DecryptPath</key><string>Downgrade/RestoreDeviceTree</string>
+<key>Decrypt</key><true/></dict>
+<key>RestoreLogo</key><dict><key>File</key><string>Firmware/all_flash/all_flash.k95ap.production/applelogo.s5l8940x.img3</string><key>IV</key><string>4483b5408a57951012116e8b752d2da4</string><key>Key</key><string>f49f103199ae215f3266332584dc070f14ec847ec85f7b7535e1891859c849a7</string><key>DecryptPath</key><string>Downgrade/RestoreLogo</string>
+<key>Decrypt</key><true/></dict>
+<key>RestoreKernelCache</key><dict><key>File</key><string>kernelcache.release.k95</string><key>IV</key><string>deadca9ace98cda79f55f4f0ee249a5e</string><key>Key</key><string>3e04b824c57f94a675b83263270cb86011fa92e6af3a2c42827ae032e213408e</string><key>DecryptPath</key><string>Downgrade/RestoreKernelCache</string><key>Patch</key><false/>
+<key>Decrypt</key><true/></dict>
+</dict>
+</dict></plist>
