@@ -1,7 +1,7 @@
 # g1lbertCFW
 # This project is presented by the san antonio detective unit (selfisht, PrimePlatypus, LukeZGD, and frog)!
 
-The first untethered jailbreak for all of iOS 5.
+The first untethered jailbreak for all versions of iOS 5.
 
 THIS IS A DEVELOPER BETA!!! THIS IS A DEVELOPER BETA!!!
 THIS DOES NOT PRESERVE YOUR BASEBAND!!!
