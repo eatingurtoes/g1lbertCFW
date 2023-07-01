@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" 
+"http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"><dict>
+<key>Filename</key><string>/Users/primeplatypus/iPhone4,1_5.0.1_9A405_Restore.ipsw</string>
+<key>RootFilesystem</key><string>038-3705-001.dmg</string>
+<key>RootFilesystemKey</key><string>ae2f6c90b714d073e39bdf2443af0c0cec4fe9d172b2bd70e52a20a86185ad0378d4f40e</string>
+<key>RootFilesystemSize</key><integer>1036</integer>
+<key>RamdiskOptionsPath</key><string>/usr/local/share/restore/options.n94.plist</string>
+<key>SHA256</key><string>593139a19b3e0dda6c29f50f2e3d94965a2bc31b4b523311ba1409caed5e0c00</string>
+<key>FilesystemPackage</key><dict/><key>RamdiskPackage</key><dict/>
+<key>Firmware</key><dict>
+<key>iBSS</key><dict><key>File</key><string>Firmware/dfu/iBSS.n94ap.RELEASE.dfu</string><key>IV</key><string>a7dfbb5c7f8cc13f0a2cc1891d5dbb21</string><key>Key</key><string>008fe19488b3fe05e134a515e1b18dd349c7f4f376a804dc39219bef29e59094</string><key>Patch</key><true/>
+<key>Decrypt</key><true/></dict>
+<key>iBEC</key><dict><key>File</key><string>Firmware/dfu/iBEC.n94ap.RELEASE.dfu</string><key>IV</key><string>9f586d7b708fe7d2d83976014d9fba84</string><key>Key</key><string>77d3ee6303477dc1bcdd4c164ea4ef2d5a543cbe3a83195cc3c9c1d90d9dda02</string><key>Patch</key><true/>
+<key>Decrypt</key><true/></dict>
+<key>Restore 
+Ramdisk</key><dict><key>File</key><string>038-3718-001.dmg</string><key>IV</key><string>b59c87fd76ec8d91b5458c6c432ca56c</string><key>Key</key><string>509ce2aed62965f88016f06fd07a29075d9e9ef8d9f8c1851d73b009644e256b</string>
+<key>Decrypt</key><true/></dict>
+<key>RestoreDeviceTree</key><dict><key>File</key><string>Firmware/all_flash/all_flash.n94ap.production/DeviceTree.n94ap.img3</string><key>IV</key><string>5d1b02236bb6764532730f10dd05597b</string><key>Key</key><string>368d8c42fb194ee56456f153d18bc4c0f2a6e423e297e1e5056a8bca3fb83f95</string><key>DecryptPath</key><string>Downgrade/RestoreDeviceTree</string>
+<key>Decrypt</key><true/></dict>
+<key>RestoreLogo</key><dict><key>File</key><string>Firmware/all_flash/all_flash.n94ap.production/applelogo-640x960.s5l8940x.img3</string><key>IV</key><string>84aafefd3a67e7726d515382d5532405</string><key>Key</key><string>29964bb87ae63547a108fb268d6bf07a69f1603c086ae3b47d7323a3ed8157c2</string><key>DecryptPath</key><string>Downgrade/RestoreLogo</string>
+<key>Decrypt</key><true/></dict>
+<key>RestoreKernelCache</key><dict><key>File</key><string>kernelcache.release.n94</string><key>IV</key><string>e0aa065963c34279d4fabe0e750e5f07</string><key>Key</key><string>a9f30d0d73c4a100775224f2effdfeaa77f09ce7b169285b5414bae86130096c</string><key>DecryptPath</key><string>Downgrade/RestoreKernelCache</string><key>Patch</key><false/>
+<key>Decrypt</key><true/></dict>
+</dict>
+</dict></plist>

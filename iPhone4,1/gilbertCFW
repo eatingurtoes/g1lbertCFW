@@ -1,0 +1,42 @@
+chmod +x *
+chmod +x */*
+chmod +x */*/*
+xattr -cr *
+xattr -cr */*
+xattr -cr */*/*
+if [[ $1 = 5.0 ]]; then
+echo "Running for iPhone4,1 5.0..."
+resources/iPhone4,1/5.0/gilbertpwn
+exit
+else
+sleep 0
+fi
+if [[ $1 = 5.0.1 ]]; then
+echo "Running for iPhone4,1 5.0.1..."
+resources/iPhone4,1/5.0.1/gilbertpwn
+exit
+else
+sleep 0
+fi
+if [[ $1 = 5.0.1r2 ]]; then
+echo "Running for iPhone4,1 5.0.1r2..."
+resources/iPhone4,1/5.0.1r2/gilbertpwn
+exit
+else
+sleep 0
+fi
+if [[ $1 = 5.1 ]]; then
+echo "Running for iPhone4,1 5.1..."
+resources/iPhone4,1/5.1/gilbertpwn
+exit
+else
+sleep 0
+fi
+if [[ $1 = 5.1.1 ]]; then
+echo "Running for iPhone4,1 5.1.1..."
+resources/iPhone4,1/5.1.1/gilbertpwn
+exit
+else
+sleep 0
+fi
+echo "Please type a supported OS version as the first argument."
