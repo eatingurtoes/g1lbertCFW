@@ -1,0 +1,50 @@
+clear
+
+echo "Welcome to the g1lbertJB custom .ipsw maker. THIS DOES NOT PRESERVE YOUR BASEBAND!!! g1lbertJB is a fully untethered jailbreak for iOS 5.x. Note that this project is currently in beta, and issues are to be expected. Please report issues in our discord."
+
+echo " "
+
+echo "Join our discord at https://discord.gg/kWmGBSUhyW!"
+
+sleep 12
+
+clear
+
+echo "Checking if the iOS 5.1.1 .ipsw exists..."
+
+IPSW=iPad2,4_5.1.1_9B206_Restore.ipsw
+
+if [ -f "$IPSW" ]; then
+	echo "Found .ipsw, continuing..."
+
+else
+	echo ".ipsw does not exist, downloading now..."
+	curl -o iPad2,4_5.1.1_9B206_Restore.ipsw https://secure-appldnld.apple.com/iOS5.1.1/041-4295.20120427.8nB8U/iPad2,4_5.1.1_9B206_Restore.ipsw
+
+fi
+
+clear
+
+echo "We have the correct .ipsw, we will now begin to create the custom one."
+
+bin/powdersn0w iPad2,4_5.1.1_9B206_Restore.ipsw iPad2,4_5.1.1_9B206_g1lbert.ipsw -memory resources/gilbert.tar resources/iPad2,4/5.1.1/5.1.1untether.tar
+
+echo " "
+
+echo "Your custom .ipsw should be created. Take a second to check if you ran into any errors."
+
+sleep 7
+
+clear
+
+echo "Congratulations! Your g1lbert-pwned .ipsw is ready. To restore it, enter kDFU mode, and then run the following command:"
+
+echo " "
+
+echo "./idevicerestore -e -w iPad2,4_5.1.1_9B206_g1lbert.ipsw"
+
+sleep 5
+
+clear
+
+echo "Hopefully this process went smoothly. Please join the discord server to report on how things went. If you had problems, or experience problems with the jailbreak, feel free to open a ticket!"
