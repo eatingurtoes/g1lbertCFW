@@ -1,0 +1,21 @@
+chmod +x *
+chmod +x */*
+chmod +x */*/*
+xattr -cr *
+xattr -cr */*
+xattr -cr */*/*
+if [[ $1 = 5.1 ]]; then
+echo "Running for iPad3,1 5.1..."
+resources/iPad3,1/5.1/gilbertpwn
+exit
+else
+sleep 0
+fi
+if [[ $1 = 5.1.1 ]]; then
+echo "Running for iPad3,1 5.1.1..."
+resources/iPad3,1/5.1.1/gilbertpwn
+exit
+else
+sleep 0
+fi
+echo "Please type a supported OS version as the first argument."
