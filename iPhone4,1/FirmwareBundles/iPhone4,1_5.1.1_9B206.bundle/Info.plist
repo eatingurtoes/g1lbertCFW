@@ -14,8 +14,7 @@
 <key>Decrypt</key><true/></dict>
 <key>iBEC</key><dict><key>File</key><string>Firmware/dfu/iBEC.n94ap.RELEASE.dfu</string><key>IV</key><string>fb7b6c119c1fef65bf604d26cae9eb70</string><key>Key</key><string>1e893d8c59fcb2042e2777f9db7dfc65b8801a1142cd56e5cdddc58ef95929da</string><key>Patch</key><true/>
 <key>Decrypt</key><true/></dict>
-<key>Restore 
-Ramdisk</key><dict><key>File</key><string>038-4352-023.dmg</string><key>IV</key><string>023ebcb7202aff587fcbd59f481093b3</string><key>Key</key><string>92465acf6ddad6b675591294f34b95947477c5a14718facd5401062f55f4ebca</string>
+<key>Restore Ramdisk</key><dict><key>File</key><string>038-4352-023.dmg</string><key>IV</key><string>023ebcb7202aff587fcbd59f481093b3</string><key>Key</key><string>92465acf6ddad6b675591294f34b95947477c5a14718facd5401062f55f4ebca</string>
 <key>Decrypt</key><true/></dict>
 <key>RestoreDeviceTree</key><dict><key>File</key><string>Firmware/all_flash/all_flash.n94ap.production/DeviceTree.n94ap.img3</string><key>IV</key><string>05015cdfa2d2443ce345b59eab9fb23b</string><key>Key</key><string>ad3386987c2600af647827279fa2a484b30d3c51d6be7a61674aed5816842c93</string><key>DecryptPath</key><string>Downgrade/RestoreDeviceTree</string>
 <key>Decrypt</key><true/></dict>
