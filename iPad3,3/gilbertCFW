@@ -1,9 +1,8 @@
 chmod +x *
 chmod +x */*
 chmod +x */*/*
-xattr -cr *
-xattr -cr */*
-xattr -cr */*/*
+xattr -cr bin/*
+xattr -cr resources/iPad3,3
 if [[ $1 = 5.1 ]]; then
 echo "Running for iPad3,3 5.1..."
 resources/iPad3,3/5.1/gilbertpwn
