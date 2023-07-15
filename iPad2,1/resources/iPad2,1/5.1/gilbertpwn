@@ -1,3 +1,5 @@
+#!/bin/bash
+
 clear
 
 echo "Welcome to the g1lbertJB custom .ipsw maker. THIS DOES NOT PRESERVE YOUR BASEBAND!!! g1lbertJB is a fully untethered jailbreak for iOS 5.x. Note that this project is currently in beta, and issues are to be expected. Please report issues in our discord."
