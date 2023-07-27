@@ -22,4 +22,8 @@ This script will not restore your device for you. It is made for people who know
 
 Don't ask for ETAs on other devices and versions. They will come soon.
 
+OTA update killing should kick in after the first device reboot, and if your device somehow manages to download an update, it will be removed upon boot.
+
+Note that OTA killing can be disabled by uninstalling the "Max OTA Pwnage" package from Cydia, and downloaded updates will be restored upon uninstall, but you should ONLY do this if you know what you're doing. 
+
 Thanks to everyone on the team for making this possible, and all of our testers!
