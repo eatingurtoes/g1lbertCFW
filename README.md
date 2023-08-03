@@ -3,7 +3,9 @@
 
 The first untethered jailbreak for all versions of iOS 5.
 
-Huge thanks to Merculous for help and support along the way! This project is much better thanks to him!
+Huge thanks to Merculous for the help and support along the way! This project is much better thanks to him!
+He also created a Python version found <a href="https://github.com/eatingurtoes/g1lbertCFW/tree/Python">here</a> which also contains the latest
+fixes.
 
 This project is now in the public beta stage. You may encounter some bugs and problems, but they should be far and few.
 
