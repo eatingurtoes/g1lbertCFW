@@ -3,6 +3,8 @@
 
 The first untethered jailbreak for all versions of iOS 5.
 
+Huge thanks to Merculous for help and support along the way! This project is much better thanks to him!
+
 This project is now in the public beta stage. You may encounter some bugs and problems, but they should be far and few.
 
 THIS DOES NOT PRESERVE YOUR BASEBAND! Do not cry to us if your baseband is updated.
