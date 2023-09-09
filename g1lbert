@@ -1,0 +1,138 @@
+#!/usr/bin/env python3
+
+import json
+import platform
+import plistlib
+import subprocess
+from argparse import ArgumentParser
+from pathlib import Path
+from urllib.error import HTTPError
+from urllib.request import urlopen
+from zipfile import ZipFile
+
+# xattr apparently allows users in MacOS to run stuff that GateKeeper will
+# automatically quarantine.
+
+# xattr -cr
+
+OS_SYSTEM = platform.system()
+
+SUPPORTED_SYSTEMS = ('Windows', 'Linux', 'Darwin')
+
+if OS_SYSTEM not in SUPPORTED_SYSTEMS:
+    raise Exception(f'Unknown system: {OS_SYSTEM}')
+
+POWDERSN0W_PATH = f'bin/{OS_SYSTEM}/powdersn0w'
+
+
+def readDevicesJSON():
+    with open('devices.json') as f:
+        return json.load(f)
+
+
+def listSupported():
+    DEVICES = readDevicesJSON()
+
+    for device in DEVICES:
+        for version in DEVICES[device]:
+            for buildid in DEVICES[device][version]:
+                print(f'Device: {device}')
+                print(f'iOS: {version}')
+                print(f'Buildid: {buildid}')
+
+
+def downloadIPSW(device, version, buildid):
+    DEVICES = readDevicesJSON()
+
+    IPSW_NAME = DEVICES[device][version][buildid]['name']
+    URL = DEVICES[device][version][buildid]['url']
+
+    IPSW_NAME = Path(IPSW_NAME)
+
+    if not IPSW_NAME.exists():
+        print(f'Downloading from url: {URL}')
+
+        try:
+            R = urlopen(URL)
+        except HTTPError as e:
+            print(f'Got http error: {e}')
+            raise
+        else:
+            DATA = R.read()
+
+            with open(IPSW_NAME, 'wb') as f:
+                f.write(DATA)
+    else:
+        print(f'{IPSW_NAME} already exists!')
+
+
+def runCommand(args):
+    return subprocess.run(args).returncode
+
+
+def makeIPSW(ipsw):
+    ipsw = Path(ipsw)
+
+    with ZipFile(ipsw) as f:
+        build_manifest = f.read('BuildManifest.plist')
+
+    build_manifest = plistlib.loads(build_manifest)
+
+    BUILDID = build_manifest['ProductBuildVersion']
+    VERSION = build_manifest['ProductVersion']
+    DEVICE = build_manifest['SupportedProductTypes'][0]
+
+    EXPECTED_BUNDLE = f'{DEVICE}_{VERSION}_{BUILDID}.bundle'
+
+    bundle_found = False
+
+    for bundle in Path('FirmwareBundles').glob('*.bundle'):
+        if bundle.name == EXPECTED_BUNDLE:
+            bundle_found = True
+            break
+
+    if not bundle_found:
+        raise Exception(f'{EXPECTED_BUNDLE} does not exist!')
+    
+    # replace Restore with g1lbert in the ipsw name
+
+    PATCH_COMMAND = (
+        POWDERSN0W_PATH,
+        ipsw.name,
+        ipsw.name.replace('Restore', 'g1lbert'),
+        'resources/gilbert.tar',
+        f'{DEVICE}/{VERSION}/{BUILDID}/untether.tar'
+    )
+
+    COMMAND_RUN = runCommand(PATCH_COMMAND)
+
+    if COMMAND_RUN != 0:
+        raise Exception('Ipsw patch has failed!')
+
+
+def main():
+    parser = ArgumentParser()
+
+    parser.add_argument('-d', nargs=1, help='device', metavar='iPhone4,1')
+    parser.add_argument('-v', nargs=1, help='version', metavar='5.1')
+    parser.add_argument('-b', nargs=1, help='buildid', metavar='9B179')
+    parser.add_argument('-i', nargs=1, help='ipsw', metavar='')
+    parser.add_argument('-l', action='store_true', help='list all supported values')
+
+    args = parser.parse_args()
+
+    if args.d and args.v and args.b:
+        downloadIPSW(args.d[0], args.v[0], args.b[0])
+
+    elif args.i:
+        makeIPSW(args.i[0])
+
+    elif args.l:
+        listSupported()
+
+    else:
+        parser.print_help()
+
+
+if __name__ == '__main__':
+    main()

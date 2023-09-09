@@ -1,0 +1,166 @@
+{
+  "iPad2,1": {
+    "5.0": {
+      "9A334": {
+        "name": "iPad2,1_5.0_9A334_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-9618.20111012.Zxb22/iPad2,1_5.0_9A334_Restore.ipsw"
+      }
+    },
+    "5.0.1": {
+      "9A405": {
+        "name": "iPad2,1_5.0.1_9A405_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-3310.20111109.Cfp76/iPad2,1_5.0.1_9A405_Restore.ipsw"
+      }
+    },
+    "5.1": {
+      "9B176": {
+        "name": "iPad2,1_5.1_9B176_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1539.20120307.JwD8A/iPad2,1_5.1_9B176_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPad2,1_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5.1.1/041-4294.20120427.Pp5qM/iPad2,1_5.1.1_9B206_Restore.ipsw"
+      }
+    }
+  },
+  "iPad2,2": {
+    "5.0": {
+      "9A334": {
+        "name": "iPad2,2_5.0_9A334_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-9619.20111012.y34Nx/iPad2,2_5.0_9A334_Restore.ipsw"
+      }
+    },
+    "5.0.1": {
+      "9A405": {
+        "name": "iPad2,2_5.0.1_9A405_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-3311.20111109.Vpr43/iPad2,2_5.0.1_9A405_Restore.ipsw"
+      }
+    },
+    "5.1": {
+      "9B176": {
+        "name": "iPad2,2_5.1_9B176_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1540.20120307.tw0go/iPad2,2_5.1_9B176_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPad2,2_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5.1.1/041-4296.20120427.dPX6x/iPad2,2_5.1.1_9B206_Restore.ipsw"
+      }
+    }
+  },
+  "iPad2,3": {
+    "5.0": {
+      "9A334": {
+        "name": "iPad2,3_5.0_9A334_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-9620.20111012.pnB4r/iPad2,3_5.0_9A334_Restore.ipsw"
+      }
+    },
+    "5.0.1": {
+      "9A405": {
+        "name": "iPad2,3_5.0.1_9A405_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-3312.20111109.zp3ws/iPad2,3_5.0.1_9A405_Restore.ipsw"
+      }
+    },
+    "5.1": {
+      "9B176": {
+        "name": "iPad2,3_5.1_9B176_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1541.20120307.WrbS2/iPad2,3_5.1_9B176_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPad2,3_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5.1.1/041-4297.20120427.NAvbf/iPad2,3_5.1.1_9B206_Restore.ipsw"
+      }
+    }
+  },
+  "iPad2,4": {
+    "5.1": {
+      "9B176": {
+        "name": "iPad2,4_5.1_9B176_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-2052.20120307.5JGht/iPad2,4_5.1_9B176_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPad2,4_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5.1.1/041-4295.20120427.8nB8U/iPad2,4_5.1.1_9B206_Restore.ipsw"
+      }
+    }
+  },
+  "iPad3,1": {
+    "5.1": {
+      "9B176": {
+        "name": "iPad3,1_5.1_9B176_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1954.20120307.FFase/iPad3,1_5.1_9B176_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPad3,1_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5.1.1/041-4327.20120427.xW6U6/iPad3,1_5.1.1_9B206_Restore.ipsw"
+      }
+    }
+  },
+  "iPad3,2": {
+    "5.1": {
+      "9B176": {
+        "name": "iPad3,2_5.1_9B176_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1955.20120307.CQvrt/iPad3,2_5.1_9B176_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPad3,2_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5.1.1/041-4328.20120427.1sCra/iPad3,2_5.1.1_9B206_Restore.ipsw"
+      }
+    }
+  },
+  "iPad3,3": {
+    "5.1": {
+      "9B176": {
+        "name": "iPad3,3_5.1_9B176_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1956.20120307.jzugh/iPad3,3_5.1_9B176_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPad3,3_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1956.20120307.jzugh/iPad3,3_5.1_9B176_Restore.ipsw"
+      }
+    }
+  },
+  "iPhone4,1": {
+    "5.0": {
+      "9A334": {
+        "name": "iPhone4,1_5.0_9A334_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-1317.20111012.UVTgr/iPhone4,1_5.0_9A334_Restore.ipsw"
+      }
+    },
+    "5.0.1": {
+      "9A405": {
+        "name": "iPhone4,1_5.0.1_9A405_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4/041-3305.20111109.Bghy6/iPhone4,1_5.0.1_9A405_Restore.ipsw"
+      },
+      "9A406": {
+        "name": "iPhone4,1_5.0.1_9A406_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iPhone4//041-3417.20111215.Slnt4/iPhone4,1_5.0.1_9A406_Restore.ipsw"
+      }
+    },
+    "5.1": {
+      "9B179": {
+        "name": "iPhone4,1_5.1_9B179_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5/041-1530.20120307.LDDac/iPhone4,1_5.1_9B179_Restore.ipsw"
+      }
+    },
+    "5.1.1": {
+      "9B206": {
+        "name": "iPhone4,1_5.1.1_9B206_Restore.ipsw",
+        "url": "https://secure-appldnld.apple.com/iOS5.1.1/041-4346.20120427.1RuDG/iPhone4,1_5.1.1_9B206_Restore.ipsw"
+      }
+    }
+  }
+}
