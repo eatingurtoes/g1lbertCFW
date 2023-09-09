@@ -1,33 +1,39 @@
 # g1lbertCFW
 # This project is presented by the san antonio detective unit (selfisht, PrimePlatypus, LukeZGD, and frog)!
 
-The first untethered jailbreak for all versions of iOS 5.
+# Intro
 
-Huge thanks to Merculous for the help and support along the way! This project is much better thanks to him!
-He also created a Python version found <a href="https://github.com/eatingurtoes/g1lbertCFW/tree/Python">here</a> which also contains the latest
-fixes.
+Welcome to g1lbertCFW, a tool to create CFWs with g1lbertJB beta packed into them. This currently supports all A5(X) devices!
 
-This project is now in the public beta stage. You may encounter some bugs and problems, but they should be far and few.
+Please join our <a href="https://discord.gg/kWmGBSUhyW!">discord</a> for updates and questions!
 
-THIS DOES NOT PRESERVE YOUR BASEBAND! Do not cry to us if your baseband is updated.
+# Platform support
 
-This project is not being as actively updated anymore, as it is where we want it to be for the most part. Development for g1lbertJB is still in progress, however, and the jailbreak packages here will be updated to reflect such.
+g1lbertCFW only works on macOS right now!
 
-g1lbertCFW supports ALL A5 devices running ALL versions of iOS 5!
-
-g1lbertCFW only works on macOS right now, but should be relatively easy to get working on Linux.
-
-Welcome to g1lbertCFW, a tool to create custom CFWs with g1lbertJB beta packed into them. This currently supports all A5(X) devices!
-This script was created for bug reports to be submitted. Please join our discord at https://discord.gg/kWmGBSUhyW!
-
-To use, run gilbertCFW with your current version as an argument and follow the instructions from there!
+# Before using
 
 This script will not restore your device for you. It is made for people who know what they're doing. Don't come to us if you break your phone doing something stupid.
 
 Don't ask for ETAs on other devices and versions. They will come soon.
 
-OTA update killing should kick in after the first device reboot, and if your device somehow manages to download an update, it will be removed upon boot.
+# How to use
 
-Note that OTA killing can be disabled by uninstalling the "Max OTA Pwnage" package from Cydia, and downloaded updates will be restored upon uninstall, but you should ONLY do this if you know what you're doing. 
+Install Python >=3.6. Your python version must support f-strings. Mac users may need to run the certificate command file that is included with the pkg file, if you
+downloaded from a pkg file.  
+If you downloaded from homebrew, most likely that was already applied, so you should be fine.
 
-Thanks to everyone on the team for making this possible, and all of our testers!
+Please, do not include "<" or ">" in the actual command.
+
+To use g1lbert, just enter `./g1lbert -i <your ipsw here>`
+
+If you don't have an ipsw, that's fine. Enter `./g1lbert -d <device> -v <iOS> -b <buildid>`
+
+If you're not sure what to enter, all of the info you need to enter can be found by running `./g1lbert -l`  
+Enter the values you would like to use to download an ipsw.
+
+# Acknowledgements
+
+Thanks to everyone on the team for making this possible, and meeza for helping with testing!
+
+Huge thanks to Merculous for the help and support along the way! This project is much better thanks to him!
