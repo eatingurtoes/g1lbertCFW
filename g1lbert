@@ -100,8 +100,9 @@ def makeIPSW(ipsw):
         POWDERSN0W_PATH,
         ipsw.name,
         ipsw.name.replace('Restore', 'g1lbert'),
-        'resources/gilbert.tar',
-        f'{DEVICE}/{VERSION}/{BUILDID}/untether.tar'
+        'resources/Cydia.tar',
+        'resources/g1lbertJB.tar',
+        f'resources/{DEVICE}_{BUILDID}.tar'
     )
 
     COMMAND_RUN = runCommand(PATCH_COMMAND)

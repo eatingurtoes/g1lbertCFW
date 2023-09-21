@@ -5,11 +5,11 @@
 
 Welcome to g1lbertCFW, a tool to create CFWs with g1lbertJB beta packed into them. This currently supports all A5(X) devices!
 
-Please join our <a href="https://discord.gg/kWmGBSUhyW!">discord</a> for updates and questions!
+Please join our [Discord server](https://discord.gg/kWmGBSUhyW) for updates and questions!
 
 # Platform support
 
-g1lbertCFW only works on macOS right now!
+g1lbertCFW supports macOS and Linux.
 
 # Before using
 
