@@ -1,11 +1,8 @@
 # g1lbertCFW
-# This project is presented by the san antonio detective unit (selfisht, PrimePlatypus, LukeZGD, and frog)!
-
-# Intro
-
-Welcome to g1lbertCFW, a tool to create CFWs with g1lbertJB beta packed into them. This currently supports all A5(X) devices!
-
-Please join our [Discord server](https://discord.gg/kWmGBSUhyW) for updates and questions!
+- This project is presented by the San Antonio Detective Unit (selfisht, PrimePlatypus, LukeZGD, and frog)
+- g1lbertCFW is a tool to create CFWs with g1lbertJB packed into them. This currently supports all A5(X) devices.
+- Please join our [Discord server](https://discord.gg/kWmGBSUhyW) for updates and questions!
+- For the jailbreak tool, go to the [g1lbertJB repo](https://github.com/g1lbertJB/g1lbertJB/).
 
 # Platform support
 
